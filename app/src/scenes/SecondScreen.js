@@ -5,9 +5,8 @@ import Axios from 'axios';
 
 var api_key = 'dWeIsA9Z1luB8B1Jqyo4DIaRQvEU1sFdGIvOGCnb';
 
-const SecondScreen = ({route, navigation}) => {
+const SecondScreen = ({route}) => {
   const {id} = route.params;
-  console.log('ID', id);
   const [data, setData] = useState('');
 
   const apiCall = () => {
